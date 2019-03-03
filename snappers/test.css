@@ -1,0 +1,24 @@
+header {
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+p {
+    color: white
+}
+
+.box-a {
+    width: 200px;
+    height: 200px;
+    float: right;
+    background: blue;
+}
+
+.box-b {
+    width: 200px;
+    height: 200px;
+    float: right;
+    background: red;
+}
+
