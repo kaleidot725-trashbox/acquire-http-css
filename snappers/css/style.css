@@ -63,6 +63,9 @@ a {
 
 #wrap {
     clear: both;
+    background-color: white;
+    margin-top: 220px;
+    padding: 35px, 0;
 }
 
 .content {
@@ -74,6 +77,7 @@ footer {
     text-align: center;
     color : white;
     padding: 20px;
+    background-color: #767671
 }
 
 footer small {
@@ -88,12 +92,19 @@ footer small {
     background-size: cover;
 }
 
+#index #wrap {
+    background-color: transparent;
+    margin-top: 0;
+    padding: 0;
+}
+
 #index h1 {
     font-size: 100px;
     line-height: 1;
     color: white;
     font-family: 'Bitter', serif;
     margin-bottom: 50px;
+    border: none;
 }
 
 #index .content {
@@ -109,6 +120,15 @@ footer small {
     widows: 960px;
     margin: 150px auto 0 auto;
     text-align: left;
+    background-color: transparent;
+}
+
+#about {
+    background-image: url(../images/bg-about.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
 }
 
 .btn a {
@@ -130,11 +150,66 @@ footer small {
     color: #009cd3;
 }
 
+.main-center {
+    widows: 940px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Bitter', serif;
+    font-size: 36px;
+    border-bottom: 1px solid #cccccc;
+}
+
+h2 {
+    font-family: 'Bitter', serif;
+    font-size: 24px;
+}
 
 
+.icon:before {
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #9cb4a4;
+}
 
+#about .profile-txt {
+    width: 540px;
+    float: left
+}
 
+#about .profile-txt span {
+    font-weight: bold;
+}
 
+#about .profile-image {
+    float: right;
+}
 
+.clearfix:after{
+    content:"";
+    display: block;
+    clear: both;
+}
 
+section {
+    margin-bottom: 35px;
+}
 
+#about .career th {
+    width: 240px;
+    background-color: #f0f0f0;
+    padding: 12px 0;
+    border: 1px solid #cccccc;
+}
+
+#about .career td {
+    width: 660px;
+    padding: 12px 0 12px 40px;
+    border: 1px solid #cccccc;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse
+}
